@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ff078d6-9a5d-4f06-838b-28b2f259c5f3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="threads" value="4" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UyZlOst60Nhc8fzpu16j6SZNty" />
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.7" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.stefanolupo.planetarymotion.physics.calculators.Vectors" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PlanetarySimulation">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gravitational" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stefanolupo.planetarymotion.physics.calculators.Gravitational" />
+      <module name="PlanetaryMotionPhysics" />
+      <option name="PROGRAM_PARAMETERS" value="server PROJECT/hubspot.deploy/PROJECTService.yaml" />
+      <option name="VM_PARAMETERS" value="-Dhubspot.zk.group=CHANGE_ME -Dhubspot.local.env=qa" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stefanolupo.planetarymotion.physics.calculators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlanetarySimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stefanolupo.planetarymotion.renderer.PlanetarySimulation" />
+      <module name="PlanetaryMotionRenderer" />
+      <option name="PROGRAM_PARAMETERS" value="server PROJECT/hubspot.deploy/PROJECTService.yaml" />
+      <option name="VM_PARAMETERS" value="-Dhubspot.zk.group=CHANGE_ME -Dhubspot.local.env=qa" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stefanolupo.planetarymotion.renderer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[prod]" type="Application" factoryName="Application">
+      <option name="PROGRAM_PARAMETERS" value="server PROJECT/hubspot.deploy/PROJECTService.yaml" />
+      <option name="VM_PARAMETERS" value="-Dhubspot.zk.group=CHANGE_ME -Dhubspot.local.env=qa" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[qa]" type="Application" factoryName="Application">
+      <option name="PROGRAM_PARAMETERS" value="server PROJECT/hubspot.deploy/PROJECTService.yaml" />
+      <option name="VM_PARAMETERS" value="-Dhubspot.zk.group=CHANGE_ME -Dhubspot.local.env=qa" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="PROGRAM_PARAMETERS" value="server PROJECT/hubspot.deploy/PROJECTService.yaml" />
+      <option name="VM_PARAMETERS" value="-Dhubspot.zk.group=CHANGE_ME -Dhubspot.local.env=qa" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SphericalCoordinateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlanetaryMotionPhysics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stefanolupo.planetarymotion.physics.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stefanolupo.planetarymotion.physics.models" />
+      <option name="MAIN_CLASS_NAME" value="com.stefanolupo.planetarymotion.physics.models.SphericalCoordinateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SphericalCoordinateTest.itShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlanetaryMotionPhysics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stefanolupo.planetarymotion.physics.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stefanolupo.planetarymotion.physics.models" />
+      <option name="MAIN_CLASS_NAME" value="com.stefanolupo.planetarymotion.physics.models.SphericalCoordinateTest" />
+      <option name="METHOD_NAME" value="itShould" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="false" name="struts [prod]" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 8.1.15.v20140411" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dhubspot.zk.group=CHANGE_ME -Dhubspot.local.env=qa" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="configFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-ajp.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-annotations.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-bio-ssl.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-bio.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-contexts.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-debug.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-deploy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-fileserver.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-ipaccess.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="active" value="true" />
+                <option name="path" value="etc/jetty-jmx.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-logging.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-monitor.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-overlay.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-plus.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-policy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-proxy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-requestlog.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-rewrite.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-spdy-proxy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-spdy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-ssl.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-stats.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-testrealm.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-webapps.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-xinetd.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty.xml" />
+              </JettyConfigFile>
+            </list>
+          </option>
+        </data>
+      </server-settings>
+      <predefined_log_file id="Jetty" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="false" name="struts [qa]" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 8.1.15.v20140411" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dhubspot.zk.group=CHANGE_ME -Dhubspot.local.env=qa" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="configFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-ajp.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-annotations.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-bio-ssl.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-bio.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-contexts.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-debug.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-deploy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-fileserver.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-ipaccess.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="active" value="true" />
+                <option name="path" value="etc/jetty-jmx.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-logging.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-monitor.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-overlay.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-plus.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-policy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-proxy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-requestlog.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-rewrite.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-spdy-proxy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-spdy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-ssl.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-stats.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-testrealm.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-webapps.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-xinetd.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty.xml" />
+              </JettyConfigFile>
+            </list>
+          </option>
+        </data>
+      </server-settings>
+      <predefined_log_file id="Jetty" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.[qa]" />
+      <item itemvalue="Application.[prod]" />
+      <item itemvalue="Application.PlanetarySimulation" />
+      <item itemvalue="JUnit.SphericalCoordinateTest" />
+      <item itemvalue="JUnit.SphericalCoordinateTest.itShould" />
+      <item itemvalue="Application.Gravitational" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PlanetarySimulation" />
+        <item itemvalue="Application.Gravitational" />
+        <item itemvalue="JUnit.SphericalCoordinateTest.itShould" />
+        <item itemvalue="JUnit.SphericalCoordinateTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ff078d6-9a5d-4f06-838b-28b2f259c5f3" name="Default Changelist" comment="" />
+      <created>1576330945698</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576330945698</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PlanetaryMotionPhysics/src/main/java/com/stefanolupo/planetarymotion/physics/models/Body.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PlanetaryMotionPhysics/src/main/java/com/stefanolupo/planetarymotion/physics/calculators/Gravitational.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PlanetaryMotionRenderer/src/main/java/com/stefanolupo/planetarymotion/renderer/PlanetarySimulation.java</url>
+          <line>99</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
